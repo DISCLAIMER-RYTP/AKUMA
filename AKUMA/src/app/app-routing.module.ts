@@ -6,7 +6,6 @@ import { ValorantPageComponent } from 'src/Pages&Components/ValorantPage/Valoran
 import { Error404Component } from 'src/Pages&Components/Error404/Error404.component';
 import { CoDPageComponent } from 'src/Pages&Components/CoDPage/CoDPage.component';
 import { DotaPageComponent } from 'src/Pages&Components/DotaPage/DotaPage.component';
-import { FIFAPageComponent } from 'src/Pages&Components/FIFAPage/FIFAPage.component';
 import { LoLPageComponent } from 'src/Pages&Components/LoLPage/LoLPage.component';
 import { OverwatchPageComponent } from 'src/Pages&Components/OverwatchPage/OverwatchPage.component';
 import { PUBGPageComponent } from 'src/Pages&Components/PUBGPage/PUBGPage.component';
@@ -20,7 +19,6 @@ const routes: Routes = [
   { path: 'valorant', component: ValorantPageComponent},
   { path: 'call-of-duty', component: CoDPageComponent},
   { path: 'dota2', component: DotaPageComponent},
-  { path: 'fifa', component: FIFAPageComponent},
   { path: 'league-of-legends', component: LoLPageComponent},
   { path: 'overwatch', component: OverwatchPageComponent},
   { path: 'pubg', component: PUBGPageComponent},
