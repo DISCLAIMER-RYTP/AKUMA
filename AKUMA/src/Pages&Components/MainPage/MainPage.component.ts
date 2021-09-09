@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    /*setTimeout( window.onload = function () {
 
+      let arr = ['csgo', 'dota', 'cod', 'lol', 'r6s', 'overwatch', 'pubg', 'valorant'];
+      var lefter = <HTMLElement>document.querySelector('.lefter');
+      for (var i = 0; i < arr.length; i++) {
+        lefter.innerHTML += `
+        <div class="card">
+      <div class="name"></div>
+      <div class="pers"></div>
+    </div>
+    `
+      }
+
+
+
+    }, 50);*/
+  }
   ngOnInit() {
   }
+
+
 
 }
