@@ -40,6 +40,8 @@ justify-content: center;
 }
 
 .card{
+    filter: brightness(0.6);
+    display: flex;
     /*background-color: rgba(0, 0, 139, 0.438);*/
     height: 150px;
     margin: 80px 0 50px 0;
@@ -50,6 +52,33 @@ filter: alpha(opacity=80) black;
 -khtml-opacity: 0.8;
 background-color:#000;
 }
+
+.name{ 
+    width: 40%;
+    margin-left: 30px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.6);
+}
+
+.pers{
+    width: 60%;
+    margin-left: 20%;
+    background-size: cover;
+    filter: brightness(1.6);
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.card:hover > .pers{
+    padding-right: 80px;
+    transition: 0.5s;
+}
+
+
+
 
 #card-csgo{
     background-image: url('../../Images/Card/csgo_card.jpg');
@@ -90,4 +119,92 @@ background-color:#000;
     
     background-image: url('../../Images/Card/valorant_card.jpeg');
     background-size: cover;
+}
+
+
+
+
+
+#pers-csgo{
+    background-image: url('../../Images/Pers/csgo_pers.png');
+    background-size: cover;
+}
+
+#pers-cod{
+    background-image: url('../../Images/Pers/cod_pers.png');
+    background-size: cover;
+}
+
+#pers-dota{
+    background-image: url('../../Images/Pers/dota_pers.png');
+    background-size: cover;
+}
+
+#pers-lol{
+    background-image: url('../../Images/Pers/lol_pers.png');
+    object-fit: cover;
+}
+
+#pers-overwatch{
+    background-image: url('../../Images/Pers/overwatch_pers.png');
+    object-fit: cover;
+}
+
+#pers-pubg{
+    background-image: url('../../Images/Pers/pubg_pers.png');
+    object-fit: cover;
+}
+
+#pers-r6s{
+    background-image: url('../../Images/Pers/r6s_pers.png');
+    object-fit: cover;
+}
+
+#pers-valorant{
+    
+    background-image: url('../../Images/Pers/valorant_pers.png');
+    object-fit: cover;
+}
+
+
+
+#name-csgo{
+    background-image: url('../../Images/Logo/csgo_logo.png');
+    object-fit: cover;
+}
+
+#name-cod{
+    background-image: url('../../Images/Logo/cod_logo.png');
+    object-fit: cover;
+}
+
+#name-dota{
+    background-image: url('../../Images/Logo/dota_logo.png');
+    object-fit: cover;
+}
+
+#name-lol{
+    background-image: url('../../Images/Logo/lol_logo.png');
+    object-fit: cover;
+}
+
+#name-overwatch{
+    background-image: url('../../Images/Logo/overwatch_logo.png');
+    object-fit: cover;
+}
+
+#name-pubg{
+    background-image: url('../../Images/Logo/pubg_logo.png');
+    object-fit: cover;
+}
+
+#name-r6s{
+    background-image: url('../../Images/Logo/r6s_logo.png');
+    object-fit: cover;
+}
+
+#name-valorant{
+    
+    background-image: url('../../Images/Logo/valorant_logo.png');
+    object-fit: cover;
 }

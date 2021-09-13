@@ -1,3 +1,4 @@
+import { stringify } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,22 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit {
 
   constructor() {
-    /*setTimeout( window.onload = function () {
-
-      let arr = ['csgo', 'dota', 'cod', 'lol', 'r6s', 'overwatch', 'pubg', 'valorant'];
-      var lefter = <HTMLElement>document.querySelector('.lefter');
-      for (var i = 0; i < arr.length; i++) {
-        lefter.innerHTML += `
-        <div class="card">
-      <div class="name"></div>
-      <div class="pers"></div>
-    </div>
-    `
-      }
+    function changeBack(elem: string){
+      //$('.main').css('background', 'url(../../Images/Back/csgo_back.png)');
+      //document.querySelector(".main").style.background="url('../../Images/Back/csgo_back.png')";
+      var el = <HTMLVideoElement>document.querySelector('.main');
+      el.style.background = "url('../../Images/Back/csgo_back.png')";
+    }
 
 
-
-    }, 50);*/
   }
   ngOnInit() {
   }
