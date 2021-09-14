@@ -1,12 +1,87 @@
-.main{
+.main-cod{
     width: 100%;
-    background-image: url('../../Images/Back/overwatch_back.jpg');
+    background-image: url('../../Images/Back/cod_back.jpg') !important;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     height: 100%;
     position: absolute;
     overflow: hidden;
+}
+.main-dota{
+    background-image: url('../../Images/Back/dota_back.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+.main-csgo{
+    background-image: url('../../Images/Back/csgo_back.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-lol{
+    background-image: url('../../Images/Back/lol_back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-r6s{
+    background-image: url('../../Images/Back/r6s_back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-overwatch{
+    background-image: url('../../Images/Back/overwatch_back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-pubg{
+    background-image: url('../../Images/Back/pubg_back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-valorant{
+    background-image: url('../../Images/Back/valorant_back.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
 }
 
 .lefter{

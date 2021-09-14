@@ -9,14 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit {
 
   constructor() {
-    function changeBack(elem: string){
-      //$('.main').css('background', 'url(../../Images/Back/csgo_back.png)');
-      //document.querySelector(".main").style.background="url('../../Images/Back/csgo_back.png')";
-      var el = <HTMLVideoElement>document.querySelector('.main');
-      el.style.background = "url('../../Images/Back/csgo_back.png')";
-    }
 
 
+
+  }
+  elem="cod";
+  changeBack(elem: string){
+    //$('.main').css('background', 'url(../../Images/Back/csgo_back.png)');
+    //document.querySelector(".main").style.background="url('../../Images/Back/csgo_back.png')";
+    this.elem=elem;
   }
   ngOnInit() {
   }
