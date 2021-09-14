@@ -7,6 +7,7 @@
     height: 100%;
     position: absolute;
     overflow: hidden;
+    transition: 0.5s;
 }
 .main-dota{
     background-image: url('../../Images/Back/dota_back.png') !important;
@@ -17,6 +18,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 .main-csgo{
     background-image: url('../../Images/Back/csgo_back.png') !important;
@@ -27,6 +29,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .main-lol{
@@ -38,6 +41,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .main-r6s{
@@ -49,6 +53,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .main-overwatch{
@@ -60,6 +65,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .main-pubg{
@@ -71,6 +77,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .main-valorant{
@@ -82,6 +89,7 @@
     position: absolute;
     overflow: hidden;
     width: 100%;
+    transition: 0.5s;
 }
 
 .lefter{
@@ -129,17 +137,16 @@ background-color:#000;
 }
 
 .name{ 
-    width: 40%;
-    margin-left: 30px;
+    width: 150%;
     height: 100px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     filter: brightness(1.6);
 }
 
 .pers{
     width: 60%;
-    margin-left: 20%;
     background-size: cover;
     filter: brightness(1.6);
     margin-top: 10px;
