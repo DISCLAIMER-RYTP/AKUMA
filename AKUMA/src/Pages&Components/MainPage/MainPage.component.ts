@@ -19,6 +19,9 @@ export class MainPageComponent implements OnInit {
     //document.querySelector(".main").style.background="url('../../Images/Back/csgo_back.png')";
     this.elem=elem;
   }
+  routToCSGO(){
+    const routerLink='/cs-go';
+  }
   ngOnInit() {
   }
 
