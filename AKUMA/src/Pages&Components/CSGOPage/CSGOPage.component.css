@@ -1,0 +1,93 @@
+.main{
+    width: 100%;
+    background-image: url('../../Images/Back/csgo_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.lefter{
+backdrop-filter: blur(5px);
+width: 17%;
+padding: 20px 50px;
+height: 100%;
+position: absolute;
+left: 0;
+overflow-y: scroll;
+display: block;
+justify-content: center;
+}
+
+
+.lefter::-webkit-scrollbar {
+    width: 12px;
+}
+
+.lefter::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(97, 0, 177, 0.438); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.lefter::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    /*background-color: rgba(0, 0, 139, 0.438);*/
+    height: 150px;
+    margin: 80px 0 50px 0;
+    
+opacity:0.8;
+-moz-opacity:0.8;
+filter: alpha(opacity=80) black;
+-khtml-opacity: 0.8;
+background-color:#000;
+}
+
+#card-csgo{
+    background-image: url('../../Images/Card/csgo_card.jpg');
+    background-size: cover;
+}
+
+#card-cod{
+    background-image: url('../../Images/Card/cod_card.jpg');
+    background-size: cover;
+}
+
+#card-dota{
+    background-image: url('../../Images/Card/dota_card.jpg');
+    background-size: cover;
+}
+
+#card-lol{
+    background-image: url('../../Images/Card/lol_card.jpg');
+    background-size: cover;
+}
+
+#card-overwatch{
+    background-image: url('../../Images/Card/overwatch_card.jpg');
+    background-size: cover;
+}
+
+#card-pubg{
+    background-image: url('../../Images/Card/pubg_card.jpg');
+    background-size: cover;
+}
+
+#card-r6s{
+    background-image: url('../../Images/Card/r6s_card.jpg');
+    background-size: cover;
+}
+
+#card-valorant{
+    
+    background-image: url('../../Images/Card/valorant_card.jpeg');
+    background-size: cover;
+}
