@@ -1,20 +1,29 @@
 .main{
     width: 100%;
-    background-image: url('../../Images/Back/er404_back.jpg');
+    background-image: url('../../Images/Back/error404_back.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     margin: 0;
     height: 100%;
     position: absolute;
     overflow: hidden;
 }
+
+.main2{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    filter: brightness(0.6);
+
+}
+
 #er{
     text-align: center;
-    margin-top: 10%;
+    margin: 0;
+    font-size: 150px;
+    padding-top: 20px;
 }
 
 #erp{
     text-align: center;
-    margin-top: 3%;
 }
 

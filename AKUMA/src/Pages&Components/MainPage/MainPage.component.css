@@ -134,6 +134,7 @@ opacity:0.8;
 filter: alpha(opacity=80) black;
 -khtml-opacity: 0.8;
 background-color:#000;
+border-radius: 0 25px;
 }
 
 .name{ 
@@ -220,21 +221,25 @@ background-color:#000;
 #pers-dota{
     background-image: url('../../Images/Pers/dota_pers.png');
     background-size: cover;
+    margin-left: -100px;
 }
 
 #pers-lol{
     background-image: url('../../Images/Pers/lol_pers.png');
     object-fit: cover;
+    margin-left: -100px;
 }
 
 #pers-overwatch{
     background-image: url('../../Images/Pers/overwatch_pers.png');
     object-fit: cover;
+    margin-left: -50px;
 }
 
 #pers-pubg{
     background-image: url('../../Images/Pers/pubg_pers.png');
     object-fit: cover;
+    margin-left: -20px;
 }
 
 #pers-r6s{
@@ -246,6 +251,7 @@ background-color:#000;
     
     background-image: url('../../Images/Pers/valorant_pers.png');
     object-fit: cover;
+    margin-left: -50px;
 }
 
 
@@ -263,16 +269,19 @@ background-color:#000;
 #name-dota{
     background-image: url('../../Images/Logo/dota_logo.png');
     object-fit: cover;
+    margin-left: -100px;
 }
 
 #name-lol{
     background-image: url('../../Images/Logo/lol_logo.png');
     object-fit: cover;
+    margin-left: -50px;
 }
 
 #name-overwatch{
     background-image: url('../../Images/Logo/overwatch_logo.png');
     object-fit: cover;
+    margin-left: -20px;
 }
 
 #name-pubg{
