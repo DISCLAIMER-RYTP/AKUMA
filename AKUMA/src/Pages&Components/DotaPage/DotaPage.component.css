@@ -1,0 +1,311 @@
+.main{
+    width: 100%;
+    background-image: url('../../Images/Back/dota_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.lefter{
+    backdrop-filter: blur(5px);
+    width: 17%;
+    padding: 20px 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    overflow-y: scroll;
+    display: block;
+    justify-content: center;
+}
+    
+    
+.lefter::-webkit-scrollbar {
+    width: 12px;
+}
+    
+.lefter::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(97, 0, 177, 0.438); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+    
+.lefter::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+    
+.card{
+    filter: brightness(0.6);
+    display: flex;
+    /*background-color: rgba(0, 0, 139, 0.438);*/
+    height: 150px;
+    margin: 80px 0 50px 0;
+    border-radius: 0 25px;
+    opacity:0.8;
+    -moz-opacity:0.8;
+    filter: alpha(opacity=80) black;
+    -khtml-opacity: 0.8;
+    background-color:#000;
+}
+    
+.name{ 
+    width: 150%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(1.6);
+}
+    
+    .pers{
+    width: 60%;
+    background-size: cover;
+    filter: brightness(1.6);
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+    
+.card:hover > .pers{
+    padding-right: 80px;
+    transition: 0.5s;
+}
+    
+    
+    
+    
+#card-csgo{
+    background-image: url('../../Images/Card/csgo_card.jpg');
+    background-size: cover;
+}
+    
+#card-cod{
+    background-image: url('../../Images/Card/cod_card.jpg');
+    background-size: cover;
+}
+    
+#card-dota{
+    background-image: url('../../Images/Card/dota_card.jpg');
+    background-size: cover;
+}
+    
+#card-lol{
+    background-image: url('../../Images/Card/lol_card.jpg');
+    background-size: cover;
+}
+    
+#card-overwatch{
+    background-image: url('../../Images/Card/overwatch_card.jpg');
+    background-size: cover;
+}
+    
+#card-pubg{
+    background-image: url('../../Images/Card/pubg_card.jpg');
+    background-size: cover;
+}
+    
+#card-r6s{
+    background-image: url('../../Images/Card/r6s_card.jpg');
+    background-size: cover;
+}
+    
+#card-valorant{        
+    background-image: url('../../Images/Card/valorant_card.jpeg');
+    background-size: cover;
+}
+    
+    
+    
+    
+    
+#pers-csgo{
+    background-image: url('../../Images/Pers/csgo_pers.png');
+    background-size: cover;
+}
+    
+#pers-cod{
+    background-image: url('../../Images/Pers/cod_pers.png');
+    background-size: cover;
+}
+    
+#pers-dota{
+    background-image: url('../../Images/Pers/dota_pers.png');
+    background-size: cover;
+    margin-left: -100px;
+}
+    
+#pers-lol{
+    background-image: url('../../Images/Pers/lol_pers.png');
+    object-fit: cover;
+    margin-left: -100px;
+}
+    
+#pers-overwatch{
+    background-image: url('../../Images/Pers/overwatch_pers.png');
+    object-fit: cover;
+    margin-left: -50px;
+}
+    
+#pers-pubg{
+    background-image: url('../../Images/Pers/pubg_pers.png');
+    object-fit: cover;
+    margin-left: -20px;
+}
+    
+#pers-r6s{
+    background-image: url('../../Images/Pers/r6s_pers.png');
+    object-fit: cover;
+}
+    
+#pers-valorant{        
+    background-image: url('../../Images/Pers/valorant_pers.png');
+    object-fit: cover;
+    margin-left: -50px;
+}
+    
+    
+    
+#name-csgo{
+    background-image: url('../../Images/Logo/csgo_logo.png');
+    object-fit: cover;
+}
+    
+#name-cod{
+    background-image: url('../../Images/Logo/cod_logo.png');
+    object-fit: cover;
+}
+    
+#name-dota{
+    background-image: url('../../Images/Logo/dota_logo.png');
+    object-fit: cover;
+    margin-left: -100px;
+}
+    
+#name-lol{
+    background-image: url('../../Images/Logo/lol_logo.png');
+    object-fit: cover;
+    margin-left: -50px;
+}
+    
+#name-overwatch{
+    background-image: url('../../Images/Logo/overwatch_logo.png');
+    object-fit: cover;
+    margin-left: -20px;
+}
+    
+#name-pubg{
+    background-image: url('../../Images/Logo/pubg_logo.png');
+    object-fit: cover;
+}
+    
+#name-r6s{
+    background-image: url('../../Images/Logo/r6s_logo.png');
+    object-fit: cover;
+}
+    
+#name-valorant{       
+    background-image: url('../../Images/Logo/valorant_logo.png');
+    object-fit: cover;
+}
+
+
+.game-card{
+width: 50%;
+height:350px;
+margin:100px;
+display: flex;
+background-size: cover;
+background-image: url('https://riki.dotabuff.com/c/56d628916e2fd62d9f456778bf855cdfc9608234/687474703a2f2f692e696d6775722e636f6d2f6d3650346a456e2e706e67');
+}
+
+.img{
+width: 100%;
+width: 45%;
+}
+
+.desc{
+width: 100%;
+display: flex;
+padding:50px;
+justify-content: space-between;
+}
+
+.tablecard{
+    margin-left: 5%;
+    width: 100%;
+    margin-top: 100px;  
+}
+
+#card2{
+    margin-left: 40%;
+
+}
+
+.main-for-cards{
+    width: 83%;
+    margin-left: 17%;
+    overflow-y: scroll;
+    display: block;
+    height: 100%;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.main-for-cards::-webkit-scrollbar {
+    width: 12px;
+}
+    
+.main-for-cards::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(97, 0, 177, 0.438); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+    
+.main-for-cards::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.team1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gambit_Esports_2020_logo.svg/1200px-Gambit_Esports_2020_logo.svg.png');
+    width:150px;
+    height: 150px;
+    background-size:cover;
+}
+
+.team2{
+    background-image: url('https://upload.wikimedia.org/wikipedia/ru/3/32/EHOME_logo.gif');
+    width:150px;
+    height: 150px;
+    background-size:cover;
+}
+
+.full_name{
+    color: white;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.map{
+    
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.begin_at{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.begin_end{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
