@@ -1,5 +1,6 @@
 import { stringify } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-MainPage',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor() {
+  constructor(private router:Router) {
 
 
 
@@ -19,8 +20,8 @@ export class MainPageComponent implements OnInit {
     //document.querySelector(".main").style.background="url('../../Images/Back/csgo_back.png')";
     this.elem=elem;
   }
-  routToCSGO(){
-    const routerLink='/cs-go';
+  routTo(elem:string){
+    this.router.navigate([`/${elem}`])
   }
   ngOnInit() {
   }
