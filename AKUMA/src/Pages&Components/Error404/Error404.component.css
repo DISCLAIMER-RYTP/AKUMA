@@ -1,0 +1,55 @@
+.main{
+    width: 100%;
+    background-image: url('../../Images/Back/error404_back.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.main2{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    filter: brightness(0.6);
+
+}
+
+#er{
+    text-align: center;
+    margin: 0;
+    font-size: 150px;
+    padding-top: 20px;
+}
+
+#erp{
+    text-align: center;
+}
+
+.btn {
+	font-size: 30px;
+	padding: 10px 25px;
+	border-radius: 25px;
+	border-color:rgb(234, 0, 255);
+	border-style: solid;
+    color:rgb(234, 0, 255);
+	border-width: 3px;
+	background-color: transparent;
+	font-family: SUMM;
+	transition: 0.1s;
+}
+
+.btn:hover{
+	background-color:rgb(234, 0, 255);
+	border-color: black;
+	color: black;
+	transition: 0.1s;
+	padding: 10px 30px;
+	font-size:35px;
+}
+.btn404{
+    width: 100%;
+    text-align: center;
+ 
+}
